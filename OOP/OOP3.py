@@ -38,19 +38,24 @@
 # designer = Designer('IUDA', 30)
 # designer.work()
 
-input('Что делаешь??')
+# input('Что делаешь??')
 
-class Developer:
-    def work(self):
-        print('Пишу код.')
-        
+# class Developer:
+#     def work(self):
+#         print('Пишу код.')
+    
 
-class Desinger:
-    def work(self):
-        print('Рисую кнопки')
+# class Desinger:
+#     def work(self):
+#         print('Рисую кнопки')
 
 
-team = [Developer(), Desinger()]
+# team = [Developer(), Desinger()]
 
-for member in team:
-    member.work()
+# for member in team:
+#     member.work()
+
+
+file = open('data.txt')
+print(file.read())
+file.close()
